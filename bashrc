@@ -116,3 +116,8 @@ function mux() {
     tmux a -t $1 || tmux new -s $1
   fi
 }
+
+# fancy prompt when working in git repositories
+GIT_PROMPT_ONLY_IN_REPO=1
+source ~/.bash-git-prompt/gitprompt.sh
+
