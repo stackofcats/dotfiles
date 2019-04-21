@@ -57,5 +57,7 @@ set fillchars=vert:\│
 
 " Look & Feel
 set background=dark 
-colorscheme solarized
+"colorscheme solarized
+colorscheme lucius
+LuciusBlack
 
